@@ -1,5 +1,3 @@
-<!-- Bootstrap JS -->
-<script src="/bootstrap/js/bootstrap.js"></script>
 
 /* Projects page */
 $('#carousel1').carousel();
