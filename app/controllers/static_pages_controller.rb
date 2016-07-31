@@ -19,8 +19,5 @@ class StaticPagesController < ApplicationController
 
   def publications
   end
-
-  def contact
-  end
   
 end

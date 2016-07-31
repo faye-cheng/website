@@ -10,8 +10,6 @@ Rails.application.routes.draw do
 
   get '/publications', to: 'static_pages#publications'
 
-  get '/contact', to: 'static_pages#contact'
-
   get '/projects', to: 'static_pages#projects'
 
   get '/designs', to: 'static_pages#designs'
