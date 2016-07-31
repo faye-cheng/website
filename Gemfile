@@ -58,9 +58,10 @@ group :development do
 
 end
 
-group :production do
+group :production, :staging do
 	gem 'haml'
+	gem 'rails_12factor'
 end
 
-gem 'rails_12factor', group: :production
+
 
