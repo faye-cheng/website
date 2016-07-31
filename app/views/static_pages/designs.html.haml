@@ -1,36 +1,64 @@
 .designs
 	%h1 Designs
+	%p		
 	%p
-	.alert-message.alert-message-info
-		%h4
-			Design Samples
-		%p
-			For more information on the designs shown on this page, click on the desired image to
-			= succeed "." do
-				%strong display details
-			%p
-				%b#pTitle
+	
+	.col-sm-7
+		%nav
+			%ul.nav.nav-tabs.list-inline
+				%li.active
+					%a{"data-toggle" => "tab", :type => "button", :href => "#dtab1"}
+						%img{:src => "assets/1-1.png", :width => "180px", :height => "180px"}
 
-	.designsPage
-		%table{:align => "center", :style => "margin: 0px auto;", :style => "width:48%"}
-			%tr
-				%td
-					%input#b1{:onclick => "changeTitle(this.value);", :type => "image", :src => "assets/1-1.png", :width => "140px", :height => "140px", :value => "Tiger Eye &mdash; (Illustrator and Sketchbook Pro)"}
-				%td
-					%input#b2{:onclick => "changeTitle(this.value);", :type => "image", :src => "assets/2-1.png", :width => "140px", :height => "140px", :value => "Pusheen &mdash; (Facebook, Sketchbook Pro)"}
-				%td
-					%input#b3{:onclick => "changeTitle(this.value);", :type => "image", :src => "assets/3-1.png", :width => "140px", :height => "140px", :value => "Tech4All Hackathon T-shirt Design &mdash; (CustomInk, Google Draw)"}
-			%tr
-				%td
-					%input#b4{:onclick => "changeTitle(this.value);", :type => "image", :src => "assets/4-1.png", :width => "140px", :height => "140px", :value => "Native American Women in Computing Logo"}
-				%td
-					%input#b5{:onclick => "changeTitle(this.value);", :type => "image", :src => "assets/5-1.png", :width => "140px", :height => "140px", :value => "Lion &mdash; (Colored Pencils)"}
-				%td
-					%input#b6{:onclick => "changeTitle(this.value);", :type => "image", :src => "assets/tech4all.png", :width => "140px", :height => "140px", :value => "Tech4All Hackathon Logo &mdash; (Photoshop)"}
-			%tr
-				%td
-					%input#b7{:onclick => "changeTitle(this.value);", :type => "image", :src => "assets/7-1.png", :width => "140px", :height => "140px", :value => "NextList Android App Design &mdash; (Illustrator, Sketchbook Pro)"}
-				%td	
-					%input#b8{:onclick => "changeTitle(this.value);", :type => "image", :src => "assets/8-1.png", :width => "140px", :height => "140px", :value => "PinkThink Hackathon &mdash; (Sketchbook Pro, Photoshop)"}
-				%td
-					%input#b9{:onclick => "changeTitle(this.value);", :type => "image", :src => "assets/9-1.png", :width => "140px", :height => "140px", :value => "Tiger &mdash; (Colored Pencils)"}
+				%li
+					%a{"data-toggle" => "tab", :type => "button", :href => "#dtab2"}
+						%img{:src => "assets/4-1.png", :width => "180px", :height => "180px"}
+			
+				%li
+					%a{"data-toggle" => "tab", :type => "button", :href => "#dtab3"}
+						%img{:src => "assets/5-1.png", :width => "180px", :height => "180px"}
+			
+				%li
+					%a{"data-toggle" => "tab", :type => "button", :href => "#dtab4"}
+						%img{:src => "assets/7-1.png", :width => "180px", :height => "180px"}
+			
+				%li
+					%a{"data-toggle" => "tab", :type => "button", :href => "#dtab5"}
+						%img{:src => "assets/9-1.png", :width => "180px", :height => "180px"}
+			
+				%li
+					%a{"data-toggle" => "tab", :type => "button", :href => "#dtab6"}
+						%img{:src => "assets/8-1.png", :width => "180px", :height => "180px"}
+
+
+	.tab-content
+		#dtab1.tab-pane.active.text-style
+			%h2 Future Communities Chair
+			%p
+				I have worked closely with the Anita Borg Institute and promoting women in tech efforts. I will be helping coordinate the 2016 Grace Hopper Conference in Houston, Texas. I will be joining the Communities committee as Future Communities Chair. I will work with multiple division of Anita Borg and  establish meaningful relations with our partners.
+
+		#dtab2.tab-pane.text-style
+			%h2 TownHall Speaker
+			%p
+				Recipient of a scholarship grant to attend the 2015 Grace Hopper Celebration of Women in Technology Conference. I gave a 40-minute presentation encouraging attendees to participate in hackathons by providing advice and sharing my experiences with the imposter syndrome.
+		#dtab3.tab-pane.text-style
+			%h2 Hackathon Co-Founder
+			%p
+				Along with a fellow classmate, we created the first hackathon at Mills College at our university. We are a liberal arts institution, and we wanted to celebrate the Interdisciplinary nature of our CS program -- thus inviting participants from all backgrounds, especially non-technical, to think of ways that technology can be used to help social causes in other disciplines.
+			%p
+		#dtab4.tab-pane.text-style
+			%h2 Teaching Assistant
+			%p
+				One of six teaching assistants for the 2015 Summer Academic Workshop at Mills College. Employed App Inventor to teach first-generation college students how to build mobile applications to solve social issues. The team I advised was the 2nd place winning team; they built a social justice mobile application that reports police brutality in local areas.
+			%p
+		#dtab5.tab-pane.text-style
+			%h2 Workshop Leader
+			%p
+				I volunteered for the 2016 Expanding Your Horizons STEM Conference for young girls, as one of their workshop leaders for the Computer Science workshop. We led a group of 30 middle school students through Code.org's Hour of Code platform. We aslo included in our presentation "next steps" past block code, and many of our students were intrigued and excited.
+
+		#dtab6.tab-pane.text-style
+			%h2 District Manager Trainee
+			%p
+				As one of the DMT's selected to assist the Aldi expansion into California, I trained in Chicago, IL where I learned the various facets of the business and the many responsibilities of Aldi employees to become an effective business leader. I assisted with business operations of 5 Aldi stores and 70 employees, with $680,000+ store revenue and facilitated information from the corporate office to district employees. I organized monthly budget reports, employee scheduling, sales reports and store productivity.
+
+

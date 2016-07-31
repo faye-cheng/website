@@ -6,9 +6,6 @@ $('#carousel3').carousel();
 $('#carousel4').carousel();
 $('#carousel5').carousel();
 $('#carousel6').carousel();
-$('#carousel7').carousel();
-$('#carousel8').carousel();
-
 
 /* Publications page */ 
 $(document).ready( function() {
@@ -44,23 +41,13 @@ $(document).ready(function(ev){
 		})
 });
 
-/* Designs page */
-function changeTitle(value) {
-	document.getElementById('pTitle').innerHTML = value;
-		document.getElementById('pTitle');}
 
-/* carousel leadership */
-
-$(document).ready(function(ev){
-		$('#leadCarousel').on('slide.bs.carousel', function (evt) {
-			$('#leadCarousel .controls li.active').removeClass('active');
-			$('#leadCarousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
-		})
-});
-
-/* navbar links active */
-
-$(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
+/* Tab toggle for Designs */
+$(document).ready( function() {
+	var clickEvent = false;
+	$('#tab').on('click', '.nav a', function() {
+		clickEvent = true;
+		$('.nav li').removeClass('active');
+		$(this).parent().addClass('active');
+	});
 });
