@@ -1,3 +1,6 @@
+<!-- Bootstrap JS -->
+<script src="/bootstrap/js/bootstrap.js"></script>
+
 /* Projects page */
 $('#carousel1').carousel();
 $('#carousel2').carousel();
@@ -55,4 +58,11 @@ $(document).ready(function(ev){
 			$('#leadCarousel .controls li.active').removeClass('active');
 			$('#leadCarousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
 		})
+});
+
+/* navbar links active */
+
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
 });

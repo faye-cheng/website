@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   get '/resume', to: 'static_pages#resume'
 
-  get '/publications', to: 'static_pages#publications'
+  get '/press', to: 'static_pages#press'
 
   get '/projects', to: 'static_pages#projects'
 

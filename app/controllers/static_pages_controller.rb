@@ -17,7 +17,7 @@ class StaticPagesController < ApplicationController
   def designs
   end
 
-  def publications
+  def press
   end
   
 end

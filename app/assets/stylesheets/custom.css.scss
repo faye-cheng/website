@@ -70,23 +70,12 @@ html, body {				/* both need to be here */
 	padding-right: 10%;
 }
 
-#footerPic {
-	width: 80px;
-	height: 80px;
-	border-radius: 100px;
-	float: left;
-	display: inline-block;
-	border: 2px solid #575757;
-	opacity: 0.85;
-	margin-top: -5px;
-}
-
 .footerMiddle {
 	width: 500px;
 	height: 100%;
 	display: inline-block;
 	float: left;
-	margin-left: 20px;
+	margin-left: 0px;
 	color: #575757;
 	font-size: 12px;
 	margin-top: -3px;
@@ -133,19 +122,19 @@ p {
 /*********************************************************/
 
 .social:hover {
-		 -webkit-transform: scale(1.1);
-		 -moz-transform: scale(1.1);
-		 -o-transform: scale(1.1);
+	 -webkit-transform: scale(1.1);
+	 -moz-transform: scale(1.1);
+	 -o-transform: scale(1.1);
  }
 .social {
-		color: #4343a1;
-		 -webkit-transform: scale(0.8);
-		 /* Browser Variations: */
-		 
-		 -moz-transform: scale(0.8);
-		 -o-transform: scale(0.8);
-		 -webkit-transition-duration: 0.5s;
-		 -moz-transition-duration: 0.5s;
-		 -o-transition-duration: 0.5s;
+	color: #4343a1;
+	 -webkit-transform: scale(0.8);
+	 /* Browser Variations: */
+	 
+	 -moz-transform: scale(0.8);
+	 -o-transform: scale(0.8);
+	 -webkit-transition-duration: 0.5s;
+	 -moz-transition-duration: 0.5s;
+	 -o-transition-duration: 0.5s;
 }
 
