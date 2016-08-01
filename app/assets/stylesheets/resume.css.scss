@@ -5,15 +5,16 @@
 	margin-right: 15px;
 	margin-bottom: 0px;
 	img {
-		width: 100%;
+		width: 70%;
 		height: 100%;
+		margin-left: 15%;
 	}
 	#resume1 {
 		margin-bottom: -5px;
 		box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
 	}
 	#resume4 {
-		width: 100%;
+		width: 70%;
 		height: 100%;
 		margin-top: -5px;
 		box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
@@ -27,5 +28,9 @@
 		border-right: 1.5px solid #d4d4d4;
 		border-bottom: 1.5px solid #d4d4d4;
 		box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
+	}
+	form {
+		margin-right: 16%;
+		float: right;
 	}
 }
