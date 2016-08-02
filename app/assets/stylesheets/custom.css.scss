@@ -55,7 +55,7 @@ html, body {				/* both need to be here */
 }
 
 .footerLinks {
-	margin-top: -5px;
+	margin-top: -8px;
 }
 
 #footer {
@@ -66,41 +66,10 @@ html, body {				/* both need to be here */
 	padding-bottom: 0px;
 	clear: both;
 	width: 100%;
-	height: 110px;
+	height: 80px;
 	background-color: #eaeaea;
 	padding-left: 11%;
 	padding-right: 10%;
-}
-
-.footerMiddle {
-	width: 500px;
-	height: 100%;
-	display: inline-block;
-	float: left;
-	margin-left: 0px;
-	color: #575757;
-	font-size: 12px;
-	margin-top: -3px;
-	p {
-		line-spacing: 0px;
-		padding: 0px;
-	}
-}
-
-.leftC {
-	text-align: right;
-	p {
-		padding: 0px;
-		margin: 0px;
-	}
-}
-
-.rightC {
-	text-align: left;
-	p {
-		padding: 0px;
-		margin: 0px;
-	}
 }
 
 .copyright {
@@ -115,6 +84,10 @@ html, body {				/* both need to be here */
 
 h1, h2, h3, h4, h5, h6 {
 	line-height: 1;
+}
+
+h1 {
+	margin-left: 7%;
 }
 
 p {
