@@ -20,14 +20,14 @@
 .projectBody {
 	align-content: center;
 	padding-left: 11%;
-	margin-left: -30px;
+	margin-left: -10px;
 }
 
 .col-md-4 {
 	padding: 0px;
-	width: 320px;
-	height: 200px;
-	padding-left: 15px;
+	width: 305px;
+	height: 175px;
+	padding-left: 20px;
 }
 
 
@@ -125,14 +125,17 @@
 
 		.carousel-control {
 			z-index: 2;
+
 		}
 		.carousel-control.left {
 			padding-top: 25%;
 			font-size: 2em;
+			opacity: 0;					/* hides side arrows to flip through images */
 		}
 		.carousel-control.right {
 			padding-top: 25%;
 			font-size: 2em;
+			opacity: 0;
 		}
 	}
 
@@ -141,8 +144,8 @@
 	.carousel, 
 	.carousel-inner, 
 	.carousel-inner .item {
-		height: 230px;
-		width: 380px;
+		height: 240px;
+		width: 400px;
 		float: left;
 	}
 
@@ -237,8 +240,10 @@
 
 .projectsTop {
 	width: 98%;
-	padding-top: 15px;
-	padding-left: 15px;
+	padding-top: 3%;
+	padding-left: 5%;
+	padding-right: 3%;
+	padding-bottom: 3%;
 	height: auto;
 	display: inline-block;
 	h1 {
@@ -262,14 +267,15 @@
 	float: right;
 	text-align: left;
 	width: 50%;
-	padding-top: 5px;
+	padding-top: 1%;
 }
 
 .projectDescription {
 	width: 100%;
 	clear: both;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 0px;
 	padding-bottom: 0px;
 	margin-bottom: -30px;
 	p {
@@ -285,7 +291,7 @@
 	background-color: #eaeaea;
 	line-spacing: 1.5em;
 	margin-right: 30px;
-	padding-left: 5px;
+	padding-left: 2%;
 	td {
 		padding: 5px;
 		font-size: 15px;

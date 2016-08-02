@@ -55,7 +55,7 @@ html, body {				/* both need to be here */
 }
 
 .footerLinks {
-	margin-top: -8px;
+	margin-top: -10px;
 }
 
 #footer {
@@ -70,12 +70,28 @@ html, body {				/* both need to be here */
 	background-color: #eaeaea;
 	padding-left: 11%;
 	padding-right: 10%;
+	display: inline-block;
+}
+
+.footerLeft{
+	width: 500px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	margin-left: 0px;
+	color: #575757;
+	font-size: 14px;
+	margin-top: 10px;
+	p {
+		line-spacing: 0px;
+		padding: 0px;
+	}
 }
 
 .copyright {
 	color: #7e7e7e;
 	font-size: 12px;
-	padding-right: 20px;
+	padding-right: 0px;
 }
 
 /*********************************************************/
