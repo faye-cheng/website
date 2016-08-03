@@ -130,12 +130,14 @@
 		.carousel-control.left {
 			padding-top: 25%;
 			font-size: 2em;
-			opacity: 0;					/* hides side arrows to flip through images */
+			opacity: 1;
+			background: transparent;		/* side arrows to flip through images */
 		}
 		.carousel-control.right {
 			padding-top: 25%;
 			font-size: 2em;
-			opacity: 0;
+			opacity: 1;
+			background: transparent;
 		}
 	}
 
@@ -147,10 +149,11 @@
 		height: 240px;
 		width: 400px;
 		float: left;
+		box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 
 	.item:nth-child(1) {
-		border: 1px solid black;
+		border: 3px solid #1a1a1a;
 		#i2share_1 {
 			width: 100%;
 			height: 100%;
@@ -178,7 +181,7 @@
 	}
 
 	.item:nth-child(2) {
-		border: 1px solid black;
+		border: 3px solid #1a1a1a;
 		#i2share_2 {
 			width: 100%;
 			height: 100%;
@@ -206,7 +209,7 @@
 	}
 
 	.item:nth-child(3) {
-		border: 1px solid black;
+		border: 3px solid #1a1a1a;
 		#i2share_3 {
 			width: 100%;
 			height: 100%;
