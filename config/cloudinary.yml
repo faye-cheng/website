@@ -1,0 +1,21 @@
+---
+development:
+  cloud_name: fayecheng
+  api_key: '214176964212371'
+  api_secret: HEDL9cqu0zAdIVAFi5atyRw24jM
+  enhance_image_tag: true
+  static_image_support: false
+
+production:
+  cloud_name: fayecheng
+  api_key: '214176964212371'
+  api_secret: HEDL9cqu0zAdIVAFi5atyRw24jM
+  enhance_image_tag: true
+  static_image_support: true
+
+test:
+  cloud_name: fayecheng
+  api_key: '214176964212371'
+  api_secret: HEDL9cqu0zAdIVAFi5atyRw24jM
+  enhance_image_tag: true
+  static_image_support: false
