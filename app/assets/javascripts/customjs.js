@@ -7,7 +7,18 @@ $('#carousel4').carousel();
 $('#carousel5').carousel();
 $('#carousel6').carousel();
 
-/* Publications page */ 
+$(document).mouseup(function (e)
+{
+    var container = $("#i2share1");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.hide();
+    }
+});
+
+/* Press page */ 
 $(document).ready( function() {
 		$('#myCarousel').carousel({
 				interval:   false
@@ -33,7 +44,7 @@ $(document).ready( function() {
 });
 
 
-/* Publications */
+/* Press */
 $(document).ready(function(ev){
 		$('#custom_carousel').on('slide.bs.carousel', function (evt) {
 			$('#custom_carousel .controls li.active').removeClass('active');
