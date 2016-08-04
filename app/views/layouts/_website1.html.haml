@@ -10,12 +10,12 @@
 			.item
 				%img{:src => "http://res.cloudinary.com/fayecheng/image/upload/v1470253657/Screen_Shot_2016-08-03_at_12.46.54_PM_ffco1q.png", :id => "website_2"}
 			.item
-				%img{:src => "http://res.cloudinary.com/fayecheng/image/upload/v1470252253/website3_fnijfv.png", :id => "website_3"}
+				%img{:src => "http://res.cloudinary.com/fayecheng/image/upload/v1470282942/website3_fnijfv.png", :id => "website_3"}
 		%a.carousel-control.left{"data-slide" => "prev", :href => "#carousel6"} ‹
 		%a.carousel-control.right{"data-slide" => "next", :href => "#carousel6"} ›
 	.projectDetails
 		%h1 My Website
-		%h2 Personal Web Resume
+		%h2 Personal Web Portfolio
 		
 		.projectTable
 			%table
@@ -36,11 +36,19 @@
 				%tr
 					%td
 						%b Tools:
-					%td Ruby on Rails, Heroku, Dreamhost, HTML/CSS, Javascript, Bootstrap, Vagrant, Chef, Git
+					%td Ruby on Rails, Heroku, Dreamhost, Postgres HTML/CSS, Javascript, Bootstrap, Vagrant, Chef, Git
 %br
 	.projectDescription
 		%h3 Description
-		%p I wanted to create a personal website from scratch using Ruby on Rails. I really enjoyed experimenting with javascript, further expanding my development skills, and modifying code elements to implement site features successfully. I also wanted to focus on creating a simple and elegant UX design. I incorporated the Cloudinary gem for web hosting images for faster performance on Heroku.
+		%p I wanted to create a personal website from scratch using Ruby on Rails. I really enjoyed experimenting with javascript, further expanding my development skills, and modifying code elements to implement site features successfully. I also wanted to focus on creating a simple and elegant UX design. 
 
 		%h3 Product
 		%p It is my hope that visitors to my site will be able to get a good idea of my programming and design skills, my personal experiences, and assess my potential as a Software Engineer and Product Manager.
+
+		%h3 Challenges
+		%p
+		%ul
+			%li Configuring vagrant environment to Postgres
+			%li Converting Rails app from SQLite3 to Postgres for Heroku
+			%li Integrating DreamHost server for production
+			%li Multi-layer div elements
