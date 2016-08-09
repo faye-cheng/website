@@ -31,6 +31,8 @@ gem 'puma'
 
 gem 'cloudinary'
 
+gem 'aws-sdk', '~> 2'
+
 
 
 
