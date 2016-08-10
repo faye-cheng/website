@@ -9,7 +9,7 @@ $('#carousel6').carousel();
 
 $(document).mouseup(function (e)
 {
-    var container = $("#i2share1");
+    var container = $("#lilypad1");
 
     if (!container.is(e.target) // if the target of the click isn't the container...
         && container.has(e.target).length === 0) // ... nor a descendant of the container
@@ -20,7 +20,7 @@ $(document).mouseup(function (e)
 
 $(document).mouseup(function (e)
 {
-    var container = $("#lilypad1");
+    var container = $("#i2share1");
 
     if (!container.is(e.target) // if the target of the click isn't the container...
         && container.has(e.target).length === 0) // ... nor a descendant of the container
@@ -28,6 +28,8 @@ $(document).mouseup(function (e)
         container.hide();
     }
 });
+
+
 
 $(document).mouseup(function (e)
 {

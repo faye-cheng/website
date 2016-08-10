@@ -14718,21 +14718,85 @@ return jQuery;
   };
 
 }).call(this);
-<!-- Bootstrap JS -->
-<script src="/bootstrap/js/bootstrap.js"></script>
 
 /* Projects page */
+
 $('#carousel1').carousel();
 $('#carousel2').carousel();
 $('#carousel3').carousel();
 $('#carousel4').carousel();
 $('#carousel5').carousel();
 $('#carousel6').carousel();
-$('#carousel7').carousel();
-$('#carousel8').carousel();
+
+$(document).mouseup(function (e)
+{
+    var container = $("#lilypad1");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.hide();
+    }
+});
+
+$(document).mouseup(function (e)
+{
+    var container = $("#i2share1");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.hide();
+    }
+});
 
 
-/* Publications page */ 
+
+$(document).mouseup(function (e)
+{
+    var container = $("#pinkThink1");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.hide();
+    }
+});
+
+$(document).mouseup(function (e)
+{
+    var container = $("#platina1");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.hide();
+    }
+});
+
+$(document).mouseup(function (e)
+{
+    var container = $("#tech4all1");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.hide();
+    }
+});
+
+$(document).mouseup(function (e)
+{
+    var container = $("#website1");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.hide();
+    }
+});
+
+/* Press page */ 
 $(document).ready( function() {
 		$('#myCarousel').carousel({
 				interval:   false
@@ -14758,7 +14822,7 @@ $(document).ready( function() {
 });
 
 
-/* Publications */
+/* Press */
 $(document).ready(function(ev){
 		$('#custom_carousel').on('slide.bs.carousel', function (evt) {
 			$('#custom_carousel .controls li.active').removeClass('active');
@@ -14766,25 +14830,15 @@ $(document).ready(function(ev){
 		})
 });
 
-/* Designs page */
-function changeTitle(value) {
-	document.getElementById('pTitle').innerHTML = value;
-		document.getElementById('pTitle');}
 
-/* carousel leadership */
-
-$(document).ready(function(ev){
-		$('#leadCarousel').on('slide.bs.carousel', function (evt) {
-			$('#leadCarousel .controls li.active').removeClass('active');
-			$('#leadCarousel .controls li:eq('+$(evt.relatedTarget).index()+')').addClass('active');
-		})
-});
-
-/* navbar links active */
-
-$(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
+/* Tab toggle for Designs */
+$(document).ready( function() {
+	var clickEvent = false;
+	$('#tab').on('click', '.nav a', function() {
+		clickEvent = true;
+		$('.nav li').removeClass('active');
+		$(this).parent().addClass('active');
+	});
 });
 (function() {
 

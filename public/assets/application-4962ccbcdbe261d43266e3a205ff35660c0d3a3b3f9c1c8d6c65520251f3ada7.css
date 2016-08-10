@@ -17791,7 +17791,7 @@ html, body {
   float: left;
   margin-left: 0px;
   color: #575757;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 10px;
 }
 /* line 85, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/custom.css.scss */
@@ -17880,17 +17880,17 @@ p {
 .designs a {
   margin-bottom: 8px;
 }
-/* line 35, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
+/* line 36, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
 .designs .nav > li > a:hover, .designs .nav > li > a:focus {
   background-color: transparent;
   border: none;
 }
-/* line 39, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
+/* line 40, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
 .designs .nav > li > a:hover, .designs .nav > li > a:hover {
   background-color: transparent;
   border: none;
 }
-/* line 44, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
+/* line 45, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
 .designs .nav-tabs > li.active > a,
 .designs .nav-tabs > li.active > a:hover,
 .designs .nav-tabs > li.active > a:focus {
@@ -17898,16 +17898,16 @@ p {
   border: 0;
   color: transparent;
 }
-/* line 51, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
+/* line 52, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
 .designs li {
   margin: 0 0 3px 0;
 }
-/* line 53, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
+/* line 54, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
 .designs li a {
   width: 180px;
   height: 180px;
 }
-/* line 56, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
+/* line 57, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/designs.css.scss */
 .designs li a :hover {
   background-color: none;
 }
@@ -18030,8 +18030,8 @@ p {
 }
 /* line 94, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/leadership.css.scss */
 .leadership .container .text-style #uci {
-  width: 180px;
-  height: 60px;
+  width: 250px;
+  height: 80px;
 }
 /* line 98, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/leadership.css.scss */
 .leadership .container .text-style #uci2 {
@@ -18218,7 +18218,7 @@ p {
   float: right;
   padding-right: 5px;
   padding-top: 30px;
-  margin-right: 70px;
+  margin-right: 80px;
 }
 
 /* line 20, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
@@ -18238,11 +18238,11 @@ p {
 
 /* line 34, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .exit {
-  font-size: 50px;
+  font-size: 80px;
   color: black;
   position: fixed;
-  right: 12%;
-  top: 13%;
+  right: 13%;
+  top: 12%;
 }
 
 /*********************************************************/
@@ -18288,12 +18288,12 @@ p {
 
 /* line 78, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 #tech4all1 {
-  border: 7px solid #2E1B5E;
+  border: 7px solid #3A62A5;
 }
 
 /* line 82, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 #website1 {
-  border: 7px solid #2E1B5E;
+  border: 7px solid #60B4D7;
 }
 
 /*********************************************************/
@@ -18339,16 +18339,18 @@ p {
 .projectsTop .carousel-fade .carousel-control.left {
   padding-top: 25%;
   font-size: 2em;
-  opacity: 0;
-  /* hides side arrows to flip through images */
+  opacity: 1;
+  background: transparent;
+  /* side arrows to flip through images */
 }
-/* line 135, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 136, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .carousel-fade .carousel-control.right {
   padding-top: 25%;
   font-size: 2em;
-  opacity: 0;
+  opacity: 1;
+  background: transparent;
 }
-/* line 142, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 144, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop html,
 .projectsTop body,
 .projectsTop .carousel,
@@ -18357,105 +18359,106 @@ p {
   height: 240px;
   width: 400px;
   float: left;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* line 152, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 155, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(1) {
-  border: 1px solid black;
+  border: 3px solid #1a1a1a;
 }
-/* line 154, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 157, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(1) #i2share_1 {
   width: 100%;
   height: 100%;
 }
-/* line 158, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 161, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(1) #lilypad_1 {
   width: 100%;
   height: 100%;
 }
-/* line 162, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 165, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(1) #pinkThink_1 {
   width: 100%;
   height: 100%;
 }
-/* line 166, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 169, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(1) #platina_1 {
   width: 100%;
   height: 100%;
 }
-/* line 170, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 173, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(1) #tech4all_1 {
   width: 100%;
   height: 100%;
 }
-/* line 174, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 177, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(1) #website_1 {
   width: 100%;
   height: 100%;
 }
-/* line 180, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 183, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(2) {
-  border: 1px solid black;
+  border: 3px solid #1a1a1a;
 }
-/* line 182, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 185, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(2) #i2share_2 {
   width: 100%;
   height: 100%;
 }
-/* line 186, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 189, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(2) #lilypad_2 {
   width: 100%;
   height: 100%;
 }
-/* line 190, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 193, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(2) #pinkThink_2 {
   width: 100%;
   height: 100%;
 }
-/* line 194, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 197, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(2) #platina_2 {
   width: 100%;
   height: 100%;
 }
-/* line 198, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 201, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(2) #tech4all_2 {
   width: 100%;
   height: 100%;
 }
-/* line 202, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 205, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(2) #website_2 {
   width: 100%;
   height: 100%;
 }
-/* line 208, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 211, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(3) {
-  border: 1px solid black;
+  border: 3px solid #1a1a1a;
 }
-/* line 210, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 213, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(3) #i2share_3 {
   width: 100%;
   height: 100%;
 }
-/* line 214, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 217, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(3) #lilypad_3 {
   width: 100%;
   height: 100%;
 }
-/* line 218, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 221, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(3) #pinkThink_3 {
   width: 100%;
   height: 100%;
 }
-/* line 222, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 225, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(3) #platina_3 {
   width: 100%;
   height: 100%;
 }
-/* line 226, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 229, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(3) #tech4all_3 {
   width: 100%;
   height: 100%;
 }
-/* line 230, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 233, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop .item:nth-child(3) #website_3 {
   width: 100%;
   height: 100%;
@@ -18464,7 +18467,7 @@ p {
 /*********************************************************/
 /* project details expand */
 /*********************************************************/
-/* line 241, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 244, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop {
   width: 98%;
   padding-top: 3%;
@@ -18474,26 +18477,26 @@ p {
   height: auto;
   display: inline-block;
 }
-/* line 249, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 252, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop h1 {
   margin-top: -10px;
   font-size: 3.3em;
   display: inline-block;
   margin-left: 0px;
 }
-/* line 255, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 258, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop h2 {
   padding: 0px;
   margin-top: -10px;
   font-size: 2em;
 }
-/* line 261, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 264, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectsTop p {
   margin-bottom: 1px;
   font-size: 15px;
 }
 
-/* line 267, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 270, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectDetails {
   float: right;
   text-align: left;
@@ -18502,7 +18505,7 @@ p {
   padding-left: 3%;
 }
 
-/* line 275, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 278, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectDescription {
   width: 100%;
   clear: both;
@@ -18510,33 +18513,34 @@ p {
   padding-right: 5%;
   margin-top: -5px;
   padding-bottom: 0px;
+  font-size: 1.2em;
   margin-bottom: -30px;
 }
-/* line 283, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 287, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectDescription p {
   padding-right: 10px;
 }
-/* line 286, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 290, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectDescription h3 {
   margin-top: 8px;
   margin-bottom: 3px;
 }
 
-/* line 292, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 296, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectTable {
   background-color: #eaeaea;
   line-spacing: 1.5em;
   margin-right: 30px;
   padding-left: 2%;
 }
-/* line 297, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 301, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 .projectTable td {
   padding: 5px;
   font-size: 15px;
 }
 
 /*********************************************************/
-/* line 305, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 309, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 #i2share {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
@@ -18544,7 +18548,7 @@ p {
   border: 3px solid #191919;
 }
 
-/* line 312, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 316, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 #lilypad {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
@@ -18552,7 +18556,7 @@ p {
   border: 3px solid #191919;
 }
 
-/* line 318, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 322, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 #pinkThink {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
@@ -18560,7 +18564,7 @@ p {
   border: 3px solid #191919;
 }
 
-/* line 325, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 329, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 #platina {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
@@ -18568,7 +18572,7 @@ p {
   border: 3px solid #191919;
 }
 
-/* line 332, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 336, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 #tech4all {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
@@ -18576,7 +18580,7 @@ p {
   border: 3px solid #191919;
 }
 
-/* line 339, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
+/* line 343, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/projects.css.scss */
 #website {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
@@ -18603,25 +18607,6 @@ p {
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
 }
 /* line 16, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/resume.css.scss */
-.resumePage #resume4 {
-  width: 70%;
-  height: 100%;
-  margin-top: -5px;
-  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
-}
-/* line 22, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/resume.css.scss */
-.resumePage #resume2 {
-  margin-top: -5px;
-  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
-}
-/* line 26, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/resume.css.scss */
-.resumePage #resume3 {
-  border-left: 1.5px solid #d4d4d4;
-  border-right: 1.5px solid #d4d4d4;
-  border-bottom: 1.5px solid #d4d4d4;
-  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.2);
-}
-/* line 32, /Users/fayecheng/Desktop/PROJECTS/website/app/assets/stylesheets/resume.css.scss */
 .resumePage form {
   margin-right: 16%;
   float: right;
